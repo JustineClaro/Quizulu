@@ -1,0 +1,408 @@
+// CyberOps Associate: Modules 5-10 group exam.
+
+# DEV OPS
+## Module: Module 5-10
+
+1. When a wireless network in a small office is being set up, which type of IP addressing is typically used on the networked devices?
+*A. private
+B. public
+C. network
+D. wireless
+
+2. Which two parts are components of an IPv4 address? (Choose two.)
+A. logical portion
+*B. host portion
+C. broadcast portion
+D. subnet portion
+*E. network portion
+F. physical portion
+
+3. What is the full decompressed form of the IPv6 address 2001:420:59:0:1::a/64?
+A. 2001:4200:5900:0:1:0:0:a000
+B. 2001:0420:0059:0000:0001:0000:000a
+C. 2001:0420:0059:0000:0001:000a
+*D. 2001:0420:0059:0000:0001:0000:0000:000a
+E. 2001:420:59:0:1:0:0:a
+F. 2001:4200:5900:0000:1000:0000:0000:a000
+
+4. A cybersecurity analyst believes an attacker is spoofing the MAC address of the default gateway to perform a man-in-the-middle attack. Which command should the analyst use to view the MAC address a host is using to reach the default gateway?
+A. route print
+B. ipconfig /all
+C. netstat -r
+*D. arp -a
+
+5. A user sends an HTTP request to a web server on a remote network. During encapsulation for this request, what information is added to the address field of a frame to indicate the destination?
+A. the network domain of the destination host
+B. the MAC address of the destination host
+C. the IP address of the default gateway
+*D. the MAC address of the default gateway
+
+6. What addresses are mapped by ARP?
+A. destination IPv4 address to the source MAC address
+*B. IPv4 address to a destination MAC address
+C. destination MAC address to the source IPv4 address
+D. destination IPv4 address to the destination host name
+
+7. What type of information is contained in an ARP table?
+A. domain name to IP address mappings
+B. switch ports associated with destination MAC addresses
+C. routes to reach destination networks
+*D. IPv4 address to MAC address mappings
+
+8. What type of information is contained in a DNS MX record?
+A. the IP address of an authoritative name server
+B. the FQDN of the alias used to identify a service
+*C. the domain name mapped to mail exchange servers
+D. the IP address for an FQDN entry
+
+9. A PC is downloading a large file from a server. The TCP window is 1000 bytes. The server is sending the file using 100-byte segments. How many segments will the server send before it requires an acknowledgment from the PC?
+A. 1000 segments
+B. 100 segments
+C. 1 segment
+*D. 10 segments
+
+10. A user issues a ping 192.168.250.103 command and receives a response that includes a code of 1 . What does this code represent?
+A. port unreachable
+B. network unreachable
+C. protocol unreachable
+*D. host unreachable
+
+11. Which two commands can be used on a Windows host to display the routing table? (Choose two.)
+*A. netstat -r
+B. show ip route
+C. netstat -s
+*D. route print
+E. tracert
+
+12. A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 2 . What does this code represent?
+A. host unreachable
+B. port unreachable
+C. network unreachable
+*D. protocol unreachable
+
+13. What message informs IPv6 enabled interfaces to use stateful DHCPv6 for obtaining an IPv6 address?
+A. the ICMPv6 Router Solicitation
+B. the DHCPv6 Advertise message
+C. the DHCPv6 Reply message
+*D. the ICMPv6 Router Advertisement
+
+14. What is the purpose of ICMP messages?
+A. to inform routers about network topology changes
+B. to ensure the delivery of an IP packet
+*C. to provide feedback of IP packet transmissions
+D. to monitor the process of a domain name to IP address resolution
+
+15. What network service uses the WHOIS protocol?
+A. HTTPS
+*B. DNS
+C. SMTP
+D. FTP
+
+16. What action does a DHCPv4 client take if it receives more than one DHCPOFFER from multiple DHCP servers?
+A. It sends a DHCPNAK and begins the DHCP process over again.
+B. It accepts both DHCPOFFER messages and sends a DHCPACK.
+C. It discards both offers and sends a new DHCPDISCOVER.
+*D. It sends a DHCPREQUEST that identifies which lease offer the client is accepting.
+
+17. Refer to the exhibit. From the perspective of users behind the NAT router, what type of NAT address is 209.165.201.1?
+Image: images/ccna1/2019-12-i282189v1n2_282189.gif
+*A. inside global
+B. inside local
+C. outside global
+D. outside local
+
+18. What is done to an IP packet before it is transmitted over the physical medium?
+A. It is tagged with information guaranteeing reliable delivery.
+B. It is segmented into smaller individual pieces.
+*C. It is encapsulated in a Layer 2 frame.
+D. It is encapsulated into a TCP segment.
+
+19. Which PDU is processed when a host computer is de-encapsulating a message at the transport layer of the TCP/IP model?
+*A. segment
+B. packet
+C. frame
+D. bits
+
+20. Which networking model is being used when an author uploads one chapter document to a file server of a book publisher?
+A. peer-to-peer
+*B. client/server
+C. master-slave
+D. point-to-point
+
+21. Which type of transmission is used to transmit a single video stream such as a web-based video conference to a select number of users?
+A. anycast
+B. broadcast
+C. unicast
+*D. multicast
+
+22. Refer to the exhibit. PC1 attempts to connect to File_server1 and sends an ARP request to obtain a destination MAC address. Which MAC address will PC1 receive in the ARP reply?
+Image: images/ccna1/2020-09-2020-09-19_113031.jpg
+A. the MAC address of the G0/0 interface on R2
+B. the MAC address of S2
+C. the MAC address of S1
+D. the MAC address of File_server1
+*E. the MAC address of the G0/0 interface on R1
+
+23. What is the result of an ARP poisoning attack?
+A. Network clients are infected with a virus.
+*B. Network clients experience a denial of service.
+C. Client memory buffers are overwhelmed.
+D. Client information is stolen.
+
+24. What is the function of the HTTP GET message?
+A. to upload content to a web server from a web client
+B. to retrieve client email from an email server using TCP port 110
+*C. to request an HTML page from a web server
+D. to send error information from a web server to a web client
+
+25. Which protocol is a client/server file sharing protocol and also a request/response protocol?
+A. FTP
+B. UDP
+C. TCP
+*D. SMB
+
+26. How is a DHCPDISCOVER transmitted on a network to reach a DHCP server?
+*A. A DHCPDISCOVER message is sent with the broadcast IP address as the destination address.
+B. A DHCPDISCOVER message is sent with a multicast IP address that all DHCP servers listen to as the destination address.
+C. A DHCPDISCOVER message is sent with the IP address of the default gateway as the destination address.
+D. A DHCPDISCOVER message is sent with the IP address of the DHCP server as the destination address.
+
+27. What is a description of a DNS zone transfer?
+*A. transferring blocks of DNS data from a DNS server to another server
+B. the action taken when a DNS server sends a query on behalf of a DNS resolver
+C. forwarding a request from a DNS server in a subdomain to an authoritative source
+D. finding an address match and transferring the numbered address from a DNS server to the original requesting client
+
+28. What are the two sizes (minimum and maximum) of an Ethernet frame? (Choose two.)
+A. 128 bytes
+*B. 64 bytes
+C. 1024 bytes
+D. 56 bytes
+*E. 1518 bytes
+
+29. Which process failed if a computer cannot access the internet and received an IP address of 169.254.142.5?
+A. DNS
+B. IP
+C. HTTP
+*D. DHCP
+
+30. Which statement describes a feature of the IP protocol?
+A. IP relies on Layer 2 protocols for transmission error control.
+B. MAC addresses are used during the IP packet encapsulation.
+*C. IP relies on upper layer services to handle situations of missing or out-of-order packets.
+D. IP encapsulation is modified based on network media.
+
+31. What is a basic characteristic of the IP protocol?
+*A. connectionless
+B. media dependent
+C. user data segmentation
+D. reliable end-to-end delivery
+
+32. Which statement describes the ping and tracert commands?
+A. Both ping and tracert can show results in a graphical display.
+B. Ping shows whether the transmission is successful; tracert does not.
+*C. Tracert shows each hop, while ping shows a destination reply only.
+D. Tracert uses IP addresses; ping does not.
+
+33. A large corporation has modified its network to allow users to access network resources from their personal laptops and smart phones. Which networking trend does this describe?
+A. cloud computing
+B. video conferencing
+C. online collaboration
+*D. bring your own device
+
+34. Which method would an IPv6-enabled host using SLAAC employ to learn the address of the default gateway?
+*A. router advertisement messages received from the link router
+B. router solicitation messages received from the link router
+C. neighbor advertisement messages received from link neighbors
+D. neighbor solicitation messages sent to link neighbors
+
+35. Refer to the exhibit. This PC is unable to communicate with the host at 172.16.0.100. What information can be gathered from the displayed output?
+Image: images/ccna1/2020-09-2020-09-19_212817.jpg
+A. The target host is turned off.
+*B. The communication fails after the default gateway.
+C. 172.16.0.100 is only a single hop away.
+D. This PC has the wrong subnet configured on its NIC
+
+36. A user issues a ping 192.168.250.103 command and receives a response that includes a code of 1. What does this code represent?
+A. network unreachable
+B. port unreachable
+C. protocol unreachable
+*D. host unreachable
+
+37. What are three responsibilities of the transport layer? (Choose three.)
+*A. identifying the applications and services on the client and server that should handle transmitted data
+B. conducting error detection of the contents in frames
+*C. meeting the reliability requirements of applications, if any
+D. directing packets towards the destination network
+E. formatting data into a compatible form for receipt by the destination devices
+*F. multiplexing multiple communication streams from many users or applications on the same network
+
+38. How does network scanning help assess operations security?
+*A. It can detect open TCP ports on network systems.
+B. It can detect weak or blank passwords.
+C. It can simulate attacks from malicious sources.
+D. It can log abnormal activity.
+
+39. Refer to the exhibit. A network security analyst is examining captured data using Wireshark. The captured frames indicate that a host is downloading malware from a server. Which source port is used by the host to request the download?
+Image: images/ccna1/2020-09-2020-09-19_213429.jpg
+A. 66
+B. 1514
+C. 6666
+*D. 48598
+
+40. Which two operations are provided by TCP but not by UDP? (Choose two.)
+*A. retransmitting any unacknowledged data
+*B. acknowledging received data
+C. reconstructing data in the order received
+D. identifying the applications
+E. tracking individual conversations
+
+41. A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?
+A. when the router receives an ICMP Time Exceeded message
+B. when the RTT value reaches zero
+C. when the values of both the Echo Request and Echo Reply messages reach zero
+D. when the host responds with an ICMP Echo Reply message
+*E. when the value in the TTL field reaches zero
+
+42. A network administrator is testing network connectivity by issuing the ping command on a router. Which symbol will be displayed to indicate that a time expired during the wait for an ICMP echo reply message?
+A. U
+*B. .
+C. !
+D. $
+
+43. A technician is configuring email on a mobile device. The user wants to be able to keep the original email on the server, organize it into folders, and synchronize the folders between the mobile device and the server. Which email protocol should the technician use?
+A. SMTP
+B. MIME
+C. POP3
+*D. IMAP
+
+44. At which OSI layer is a source MAC address added to a PDU during the encapsulation process?
+A. application layer
+B. presentation layer
+*C. data link layer
+D. transport layer
+
+45. Which value, that is contained in an IPv4 header field, is decremented by each router that receives a packet?
+*A. Time-to-Live
+B. Fragment Offset
+C. Header Length
+D. Differentiated Services
+
+46. What are three responsibilities of the transport layer? (Choose three.)
+*A. identifying the applications and services on the client and server that should handle transmitted data
+B. conducting error detection of the contents in frames
+*C. meeting the reliability requirements of applications, if any
+D. directing packets towards the destination network
+E. formatting data into a compatible form for receipt by the destination devices
+*F. multiplexing multiple communication streams from many users or applications on the same network
+
+47. Which two ICMP messages are used by both IPv4 and IPv6 protocols? (Choose two.)​
+*A. route redirection
+B. neighbor solicitation
+C. router solicitation
+D. router advertisement
+*E. protocol unreachable
+
+48. What mechanism is used by a router to prevent a received IPv4 packet from traveling endlessly on a network?
+A. It checks the value of the TTL field and if it is 100, it discards the packet and sends a Destination Unreachable message to the source host.
+*B. It decrements the value of the TTL field by 1 and if the result is 0, it discards the packet and sends a Time Exceeded message to the source host.
+C. It checks the value of the TTL field and if it is 0, it discards the packet and sends a Destination Unreachable message to the source host.
+D. It increments the value of the TTL field by 1 and if the result is 100, it discards the packet and sends a Parameter Problem message to the source host.
+
+49. A device has been assigned the IPv6 address of 2001:0db8:cafe:4500:1000:00d8:0058:00ab/64. Which is the host identifier of the device?
+A. 2001:0db8:cafe:4500:1000:00d8:0058:00ab
+B. 00ab
+C. 2001:0db8:cafe:4500
+*D. 1000:00d8:0058:00ab
+
+50. What three application layer protocols are part of the TCP/IP protocol suite? (Choose three.)
+*A. DHCP
+B. PPP
+*C. FTP
+*D. DNS
+E. NAT
+F. ARP
+
+51. A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?
+A. The computer has an invalid IP address.
+B. The cable is not connected properly to the NIC.
+C. The computer has an incorrect subnet mask.
+*D. The computer has an invalid default gateway address.
+
+52. Refer to the exhibit. PC1 issues an ARP request because it needs to send a packet to PC3. In this scenario, what will happen next?
+Image: images/ccna1/2020-10-2020-10-26_082551.jpg
+A. RT1 will send an ARP reply with its own Fa0/1 MAC address.
+B. SW1 will send an ARP reply with its Fa0/1 MAC address.
+C. RT1 will send an ARP reply with the PC3 MAC address.
+D. RT1 will forward the ARP request to PC3.
+*E. RT1 will send an ARP reply with its own Fa0/0 MAC address.
+
+53. A user who is unable to connect to the file server contacts the help desk. The helpdesk technician asks the user to ping the IP address of the default gateway that is configured on the workstation. What is the purpose for this ping command?
+A. to resolve the domain name of the file server to its IP address
+B. to request that gateway forward the connection request to the file server
+C. to obtain a dynamic IP address from the server
+*D. to test that the host has the capability to reach hosts on other networks
+
+54. A user gets an IP address of 192.168.0.1 from the company network administrator. A friend of the user at a different company gets the same IP address on another PC. How can two PCs use the same IP address and still reach the Internet, send and receive email, and search the web?
+A. ISPs use Domain Name Service to change a user IP address into a public IP address that can be used on the Internet.
+B. Both users must be using the same Internet Service Provider.
+C. Both users must be on the same network.
+*D. ISPs use Network Address Translation to change a user IP address into an address that can be used on the Internet.
+
+55. How many host addresses are available on the 192.168.10.128/26 network?
+A. 30
+B. 32
+C. 60
+*D. 62
+E. 64
+
+56. What are the three ranges of IP addresses that are reserved for internal private use? (Choose three.)
+A. 64.100.0.0/14
+*B. 192.168.0.0/16
+C. 192.31.7.0/24
+*D. 172.16.0.0/12
+*E. 10.0.0.0/8
+F. 127.16.0.0/12
+
+57. Refer to the exhibit. A cybersecurity analyst is viewing captured packets forwarded on switch S1. Which device has the MAC address 50:6a:03:96:71:22?
+Image: images/ccna1/2019-05-2019-07-19_220440.jpg
+A. PC-A
+*B. router DG
+C. DSN server
+D. router ISP
+E. web server
+
+58. A host PC is attempting to lease an address through DHCP. What message is sent by the server to let the client know it is able to use the provided IP information?
+A. DHCPDISCOVER
+B. DHCPOFFER
+C. DHCPREQUEST
+*D. DHCPACK
+E. DHCPNACK
+
+59. An employee complains that a Windows PC cannot connect to the Internet. A network technician issues the ipconfig command on the PC and is shown an IP address of 169.254.10.3. Which two conclusions can be drawn? (Choose two.)
+*A. The PC is configured to obtain an IP address automatically.
+B. The default gateway address is not configured.
+C. The DNS server address is misconfigured.
+D. The enterprise network is misconfigured for dynamic routing.
+*E. The PC cannot contact a DHCP server.
+
+60. Which two functions or operations are performed by the MAC sublayer? (Choose two.)
+*A. It is responsible for Media Access Control.
+B. It performs the function of NIC driver software.
+*C. It adds a header and trailer to form an OSI Layer 2 PDU.
+D. It handles communication between upper and lower layers.
+E. It adds control information to network protocol layer data.
+
+61. Which field in an IPv4 packet header will typically stay the same during its transmission?
+A. Flag
+B. Time-to-Live
+C. Packet Length
+*D. Destination Address
+
+62. What are the two sizes (minimum and expected maximum) of an Ethernet frame? (Choose two.)
+A. 128 bytes
+B. 1024 bytes
+*C. 1518 bytes
+*D. 64 bytes
+E. 56 bytes
+

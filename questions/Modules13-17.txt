@@ -1,0 +1,297 @@
+# DEV OPS
+
+## Module: Module 13-17
+
+1. What is the significant characteristic of worm malware?
+A. Worm malware disguises itself as legitimate software.
+B. Once installed on a host system, a worm does not replicate itself.
+C. A worm must be triggered by an event on the host system.
+*D. A worm can execute independently of the host system.
+
+2. What are the three major components of a worm attack? (Choose three.)
+*A. a payload
+*B. a propagation mechanism
+C. an infecting vulnerability
+D. a probing mechanism
+*E. an enabling vulnerability
+F. a penetration mechanism
+
+3. A user is curious about how someone might know a computer has been infected with malware. What are two common malware behaviors? (Choose two.)
+A. The computer emits a hissing sound every time the pencil sharpener is used.
+B. The computer beeps once during the boot process.
+*C. The computer gets increasingly slower to respond.
+D. No sound emits when an audio CD is played.
+*E. The computer freezes and requires reboots.
+
+4. Which two types of attacks are examples of reconnaissance attacks? (Choose two.)
+A. brute force
+*B. port scan
+*C. ping sweep
+D. man-in-the-middle
+E. SYN flood
+
+5. An administrator discovers a vulnerability in the network. On analysis of the vulnerability the administrator decides the cost of managing the risk outweighs the cost of the risk itself. The risk is accepted, and no action is taken. What risk management strategy has been adopted?
+A. risk transfer
+*B. risk acceptance
+C. risk reduction
+D. risk avoidance
+
+6. Which protocol is exploited by cybercriminals who create malicious iFrames?
+*A. HTTP
+B. DNS
+C. ARP
+D. DHCP
+
+7. How can a DNS tunneling attack be mitigated?
+A. by preventing devices from using gratuitous ARP
+*B. by using a filter that inspects DNS traffic
+C. by securing all domain owner accounts
+D. by using strong passwords and two-factor authentication
+
+8. What is the function of a gratuitous ARP sent by a networked device when it boots up?
+A. to request the netbios name of the connected system
+B. to request the MAC address of the DNS server
+C. to request the IP address of the connected network
+*D. to advise connected devices of its MAC address
+
+9. What is the result of a passive ARP poisoning attack?
+A. Data is modified in transit or malicious data is inserted in transit.
+B. Network clients experience a denial of service.
+*C. Confidential information is stolen.
+D. Multiple subdomains are created.
+
+10. What are two methods used by cybercriminals to mask DNS attacks? (Choose two.)
+A. reflection
+B. shadowing
+*C. domain generation algorithms
+*D. fast flux
+E. tunneling
+
+11. What scenario describes a vulnerability broker?
+A. a teenager running existing scripts, tools, and exploits, to cause harm, but typically not for profit
+*B. a threat actor attempting to discover exploits and report them to vendors, sometimes for prizes or rewards
+C. a threat actor publicly protesting against governments by posting articles and leaking sensitive information
+D. a State-Sponsored threat actor who steals government secrets and sabotages networks of foreign governments
+
+12. In what type of attack is a cybercriminal attempting to prevent legitimate users from accessing network services?
+*A. DoS
+B. session hijacking
+C. MITM
+D. address spoofing
+
+13. Which field in the IPv6 header points to optional network layer information that is carried in the IPv6 packet?
+A. traffic class
+B. version
+C. flow label
+*D. next header
+
+14. Which type of attack is carried out by threat actors against a network to determine which IP addresses, protocols, and ports are allowed by ACLs?
+A. social engineering
+B. denial of service
+C. phishing
+*D. reconnaissance
+
+15. What kind of ICMP message can be used by threat actors to create a man-in-the-middle attack?
+A. ICMP echo request
+B. ICMP unreachable
+*C. ICMP redirects
+D. ICMP mask reply
+
+16. What are two purposes of launching a reconnaissance attack on a network? (Choose two.)
+A. to escalate access privileges
+B. to prevent other users from accessing the system
+*C. to scan for accessibility
+*D. to gather information about the network and devices
+E. to retrieve and modify data
+
+17. Which type of network attack involves randomly opening many Telnet requests to a router and results in a valid network administrator not being able to access the device?
+A. DNS poisoning
+B. man-in-the-middle
+*C. SYN flooding
+D. spoofing
+
+18. What functionality is provided by Cisco SPAN in a switched network?
+*A. It mirrors traffic that passes through a switch port or VLAN to another port for traffic analysis.
+B. It prevents traffic on a LAN from being disrupted by a broadcast storm.
+C. It protects the switched network from receiving BPDUs on ports that should not be receiving them.
+D. It copies traffic that passes through a switch interface and sends the data directly to a syslog or SNMP server for analysis.
+E. It inspects voice protocols to ensure that SIP, SCCP, H.323, and MGCP requests conform to voice standards.
+F. It mitigates MAC address overflow attacks.
+
+19. Which statement describes an operational characteristic of NetFlow?
+*A. NetFlow collects basic information about the packet flow, not the flow data itself.
+B. NetFlow captures the entire contents of a packet.
+C. NetFlow flow records can be viewed by the tcpdump tool.
+D. NetFlow can provide services for user access control.
+
+20. Which technology is a proprietary SIEM system?
+A. StealthWatch
+B. NetFlow collector
+C. SNMP agent
+*D. Splunk
+
+21. What are three functionalities provided by SOAR? (Choose three.)
+*A. It automates complex incident response procedures and investigations.
+B. It provides 24x7 statistics on packets that flow through a Cisco router or multilayer switch.
+*C. It uses artificial intelligence to detect incidents and aid in incident analysis and response.
+D. It presents the correlated and aggregated event data in real-time monitoring and long-term summaries.
+E. It provides a complete audit trail of basic information about every IP flow forwarded on a device.
+*F. It provides case management tools that allow cybersecurity personnel to research and investigate incidents.
+
+22. Which devices should be secured to mitigate against MAC address spoofing attacks?
+A. Layer 7 devices
+B. Layer 4 devices
+C. Layer 3 devices
+*D. Layer 2 devices
+
+23. A network administrator is checking the system logs and notices unusual connectivity tests to multiple well-known ports on a server. What kind of potential network attack could this indicate?
+A. access
+B. denial of service
+C. information theft
+*D. reconnaissance
+
+24. What is a vulnerability that allows criminals to inject scripts into web pages viewed by users?
+*A. Cross-site scripting
+B. XML injection
+C. buffer overflow
+D. SQL injection
+
+25. Which cyber attack involves a coordinated attack from a botnet of zombie computers?
+A. ICMP redirect
+B. MITM
+*C. DDoS
+D. address spoofing
+
+26. What technique is a security attack that depletes the pool of IP addresses available for legitimate hosts?
+A. reconnaissance attack
+*B. DHCP starvation
+C. DHCP spoofing
+D. DHCP snooping
+
+27. What are two examples of DoS attacks? (Choose two.)
+*A. buffer overflow
+B. SQL injection
+C. port scanning
+D. phishing
+*E. ping of death
+
+28. Why would a rootkit be used by a hacker?
+A. to try to guess a password
+B. to reverse engineer binary files
+*C. to gain access to a device without being detected
+D. to do reconnaissance
+
+29. What causes a buffer overflow?
+A. sending too much information to two or more interfaces of the same device, thereby causing dropped packets
+*B. attempting to write more data to a memory location than that location can hold
+C. sending repeated connections such as Telnet to a particular device, thus denying other data sources
+D. downloading and installing too many software updates at one time
+E. launching a security countermeasure to mitigate a Trojan horse
+
+30. Which type of security threat would be responsible if a spreadsheet add-on disables the local software firewall?
+A. DoS
+*B. Trojan horse
+C. buffer overflow
+D. brute-force attack
+
+31. Which two types of hackers are typically classified as grey hat hackers? (Choose two.)
+*A. hacktivists
+B. cyber criminals
+*C. vulnerability brokers
+D. script kiddies
+E. state-sponsored hackers
+
+32. A white hat hacker is using a security tool called Skipfish to discover the vulnerabilities of a computer system. What type of tool is this?
+A. debugger
+*B. fuzzer
+C. vulnerability scanner
+D. packet sniffer
+
+33. Which two functions are provided by NetFlow? (Choose two.)
+A. It uses artificial intelligence to detect incidents and aid in incident analysis and response.
+*B. It provides a complete audit trail of basic information about every IP flow forwarded on a device.
+*C. It provides 24x7 statistics on packets that flow through a Cisco router or multilayer switch.
+D. It allows an administrator to capture real-time network traffic and analyze the entire contents of packets.
+E. It presents correlated and aggregated event data in real-time monitoring and long-term summaries.
+
+34. Which statement describes the function of the SPAN tool used in a Cisco switch?
+A. It is a secure channel for a switch to send logging to a syslog server.
+B. It provides interconnection between VLANs over multiple switches.
+C. It supports the SNMP trap operation on a switch.
+*D. It copies the traffic from one switch port and sends it to another switch port that is connected to a monitoring device.
+
+35. What are two evasion methods used by hackers? (Choose two.)
+A. scanning
+B. access attack
+*C. resource exhaustion
+D. phishing
+*E. encryption
+
+36. Which attack involves threat actors positioning themselves between a source and destination with the intent of transparently monitoring, capturing, and controlling the communication?
+*A. man-in-the-middle attack
+B. DoS attack
+C. ICMP attack
+D. SYN flood attack
+
+37. What is the goal of a white hat hacker?
+A. validating data
+B. modifying data
+C. stealing data
+*D. protecting data
+
+38. Once a cyber threat has been verified, the US Cybersecurity Infrastructure and Security Agency (CISA) automatically shares the cybersecurity information with public and private organizations. What is this automated system called?
+*A. AIS
+B. NCSA
+C. ENISA
+D. NCASM
+
+39. A user receives a phone call from a person who claims to represent IT services and then asks that user for confirmation of username and password for auditing purposes. Which security threat does this phone call represent?
+A. spam
+B. anonymous keylogging
+C. DDoS
+*D. social engineering
+
+40. Which two characteristics describe a worm? (Choose two)
+*A. is self-replicating
+*B. travels to new computers without any intervention or knowledge of the user
+C. infects computers by attaching to software code
+D. hides in a dormant state until needed by an attacker
+E. executes when software is run on a computer
+
+41. An attacker is redirecting traffic to a false default gateway in an attempt to intercept the data traffic of a switched network. What type of attack could achieve this?
+A. MAC address snoopin
+B. DHCP snooping
+C. MAC address starvation
+*D. DHCP spoofing
+
+42. What would be the target of an SQL injection attack?
+A. DHCP
+B. DNS
+C. email
+*D. database
+
+43. The IT department is reporting that a company web server is receiving an abnormally high number of web page requests from different locations simultaneously. Which type of security attack is occurring?
+A. social engineering
+B. adware
+*C. DDoS
+D. phishing
+E. spyware
+
+44. Why would an attacker want to spoof a MAC address?
+A. so that the attacker can capture traffic from multiple VLANs rather than from just the VLAN that is assigned to the port to which the attacker device is attached
+*B. so that a switch on the LAN will start forwarding frames to the attacker instead of to the legitimate host
+C. so that a switch on the LAN will start forwarding all frames toward the device that is under control of the attacker (that can then capture the LAN traffic)
+D. so that the attacker can launch another type of attack in order to gain access to the switch
+
+45. Which two characteristics describe a virus? (Choose two.)
+*A. Malicious code that can remain dormant before executing an unwanted action.
+B. Malware that executes arbitrary code and installs copies of itself in memory.
+*C. Malware that relies on the action of a user or a program to activate.
+D. Program code specifically designed to corrupt memory in network devices.
+E. A self-replicating attack that is independently launched.
+
+46. Which type of security attack would attempt a buffer overflow?
+A. ransomware
+B. reconnaissance
+*C. DoS
+D. scareware

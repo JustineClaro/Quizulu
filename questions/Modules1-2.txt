@@ -1,0 +1,172 @@
+# DEV OPS
+
+## Module: Module 1-2
+
+1. Which organization is an international nonprofit organization that offers the CISSP certification?
+A. CompTIA
+*B. (ISC)2
+C. IEEE
+D. GIAC
+
+2. What is a benefit to an organization of using SOAR as part of the SIEM system?
+A. SOAR was designed to address critical security events and high-end investigation.
+B. SOAR would benefit smaller organizations because it requires no cybersecurity analyst involvement once installed.
+*C. SOAR automates incident investigation and responds to workflows based on playbooks.
+D. SOAR automation guarantees an uptime factor of "5 nines".
+
+3. Which personnel in a SOC are assigned the task of hunting for potential threats and implementing threat detection tools?
+*A. Tier 3 SME
+B. Tier 2 Incident Reporter
+C. Tier 1 Analyst
+D. SOC Manager
+
+4. Which three technologies should be included in a SOC security information and event management system? (Choose three.)
+*A. security monitoring
+*B. threat intelligence
+C. proxy service
+D. firewall appliance
+E. intrusion prevention
+*F. log management
+
+5. The term cyber operations analyst refers to which group of personnel in a SOC?
+*A. Tier 1 personnel
+B. Tier 3 personnel
+C. Tier 2 personnel
+D. SOC managers
+
+6. How does a security information and event management system (SIEM) in a SOC help the personnel fight against security threats?
+A. by analyzing logging data in real time
+*B. by combining data from multiple technologies
+C. by integrating all security devices and appliances in an organization
+D. by dynamically implementing firewall rules
+
+7. An SOC is searching for a professional to fill a job opening. The employee must have expert-level skills in networking, endpoint, threat intelligence, and malware reverse engineering in order to search for cyber threats hidden within the network. Which job within an SOC requires a professional with those skills?
+A. Incident Responder
+B. Alert Analyst
+C. SOC Manager
+*D. Threat Hunter
+
+8. Which three are major categories of elements in a security operations center? (Choose three.)
+*A. technologies
+B. Internet connection
+*C. processes
+D. data center
+*E. people
+F. database engine
+
+9. Which KPI metric does SOAR use to measure the time required to stop the spread of malware in the network?
+A. MITR
+*B. Time to Control
+C. MITC
+D. MTTD
+
+10. What job would require verification that an alert represents a true security incident or a false positive?
+*A. Alert Analyst
+B. Threat Hunter
+C. SOC Manager
+D. Incident Reporter
+
+11. When a user turns on the PC on Wednesday, the PC displays a message indicating that all of the user files have been locked. In order to get the files unencrypted, the user is supposed to send an email and include a specific ID in the email title. The message also includes ways to buy and submit bitcoins as payment for the file decryption. After inspecting the message, the technician suspects a security breach occurred. What type of malware could be responsible?
+A. Trojan
+B. spyware
+C. adware
+*D. ransomware
+
+12. An employee connects wirelessly to the company network using a cell phone. The employee then configures the cell phone to act as a wireless access point that will allow new employees to connect to the company network. Which type of security threat best describes this situation?
+*A. rogue access point
+B. cracking
+C. spoofing
+D. denial of service
+
+13. What are two examples of personally identifiable information (PII)? (Choose two.)
+A. first name
+B. IP address
+C. language preference
+*D. street address
+*E. credit card number
+
+14. What is the dark web?
+A. It is a website that reports the most recent activities of cybercriminals all over the world.
+B. It is a website that sells stolen credit cards.
+C. It is part of the internet where a person can obtain personally identifiable information from anyone for free
+*D. It is part of the internet that can only be accessed with special software.
+
+15. A company has just had a cybersecurity incident. The threat actor appeared to have a goal of network disruption and appeared to use a common security hack tool that overwhelmed a particular server with a large amount of traffic. This traffic rendered the server inoperable. How would a certified cybersecurity analyst classify this type of threat actor?
+A. terrorist
+B. hacktivist
+C. state-sponsored
+*D. amateur
+
+16. A user calls the help desk complaining that the password to access the wireless network has changed without warning. The user is allowed to change the password, but an hour later, the same thing occurs. What might be happening in this situation?
+*A. rogue access point
+B. password policy
+C. weak password
+D. user error
+E. user laptop
+
+17. Which regulatory law regulates the identification, storage, and transmission of patient personal healthcare information?
+A. FISMA
+*B. HIPAA
+C. PCI-DSS
+D. GLBA
+
+18. A worker in the records department of a hospital accidentally sends a medical record of a patient to a printer in another department. When the worker arrives at the printer, the patient record printout is missing. What breach of confidentiality does this situation describe?
+A. EMR
+B. PII
+C. PSI
+*D. PHI
+
+19. What type of cyberwarfare weapon was Stuxnet?
+A. botnet
+B. virus
+*C. worm
+D. ransomware
+
+20. Which example illustrates how malware might be concealed?
+Image: images/modules1-2/2020-09-2020-09-09_204024.jpg
+A. A hacker uses techniques to improve the ranking of a website so that users are redirected to a malicious site.
+B. An attack is launched against the public website of an online retailer with the objective of blocking its response to visitors.
+C. A botnet of zombies carry personal information back to the hacker.
+*D. An email is sent to the employees of an organization with an attachment that looks like an antivirus update, but the attachment actually consists of spyware.
+
+21. What websites should a user avoid when connecting to a free and open wireless hotspot?
+*A. websites to check account fees
+B. websites to check product details
+C. websites to check stock prices
+D. websites to make purchases
+
+22. In a smart home, an owner has connected many home devices to the Internet, such as the refrigerator and the coffee maker. The owner is concerned that these devices will make the wireless network vulnerable to attacks. What action could be taken to address this issue?
+A. Configure mixed mode wireless operation.
+*B. Install the latest firmware versions for the devices.
+C. Assign static IP addresses to the wireless devices.
+D. Disable the SSID broadcast.
+
+23. A group of users on the same network are all complaining about their computers running slowly. After investigating, the technician determines that these computers are part of a zombie network. Which type of malware is used to control these computers?
+*A. botnet
+B. spyware
+C. virus
+D. rootkit
+
+24. Which statement describes cyberwarfare?
+*A. It is Internet-based conflict that involves the penetration of information systems of other nations.
+B. It is simulation software for Air Force pilots that allows them to practice under a simulated war scenario.
+C. Cyberwarfare is an attack carried out by a group of script kiddies.
+D. It is a series of personal protective equipment developed for soldiers involved in nuclear war
+
+25. Why do IoT devices pose a greater risk than other computing devices on a network?
+*A. Most IoT devices do not receive frequent firmware updates.
+B. Most IoT devices do not require an Internet connection and are unable to receive new updates.
+C. IoT devices cannot function on an isolated network with only an Internet connection.
+D. IoT devices require unencrypted wireless connections.
+
+26. Which cyber attack involves a coordinated attack from a botnet of zombie computers?
+*A. DDoS
+B. MITM
+C. address spoofing
+D. ICMP redirect
+
+27. What is the main purpose of cyberwarfare?
+A. to protect cloud-based data centers
+B. to develop advanced network devices
+*C. to gain advantage over adversaries
+D. to simulate possible war scenarios among nations

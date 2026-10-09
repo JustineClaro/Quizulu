@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quizulu Importer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7fb;
+      --surface: #ffffff;
+      --text: #282e3e;
+      --muted: #586380;
+      --border: #d9dde8;
+      --primary: #4255ff;
+      --code-bg: #edeff4;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --bg: #0e1124;
+        --surface: #1b2040;
+        --text: #eef0ff;
+        --muted: #a3aad0;
+        --border: #353c6b;
+        --primary: #6d7dff;
+        --code-bg: #272d55;
+      }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+    h1 { margin: 0 0 6px; font-size: 26px; }
+    .card { margin-top: 20px; padding: 20px 22px; border-radius: 16px; background: var(--surface); box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); }
+    .card h2 { margin: 0 0 10px; font-size: 17px; }
+    ol { margin: 0; padding-left: 22px; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    code { padding: 1px 6px; border-radius: 5px; background: var(--code-bg); font-size: 14px; }
+    .bookmarklet {
+      display: inline-block;
+      margin: 8px 0 4px;
+      padding: 12px 22px;
+      border: 2px dashed var(--primary);
+      border-radius: 12px;
+      background: var(--primary);
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: grab;
+    }
+    .bookmarklet[aria-disabled="true"] { opacity: 0.5; cursor: not-allowed; }
+    .error { color: #e5484d; font-weight: 600; }
+    button { padding: 8px 14px; border: 2px solid var(--border); border-radius: 10px; background: var(--surface); color: inherit; font: inherit; font-weight: 600; cursor: pointer; }
+    button:hover { border-color: var(--primary); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Quizulu importer</h1>
+    <p class="muted">Copies the questions from an itexamanswers.net exam page into Quizulu's format, with the red answers starred.</p>
+
+    <section class="card">
+      <h2>1. Install (once)</h2>
+      <ol>
+        <li>Show your bookmarks bar: <code>Ctrl + Shift + B</code> in Chrome or Brave.</li>
+        <li>Drag this button onto the bookmarks bar:<br>
+          <a class="bookmarklet" id="bm" href="#" aria-disabled="true">Copy to Quizulu</a>
+          <span id="bm-status" class="muted">Loading…</span>
+        </li>
+      </ol>
+      <p class="muted">Can't drag it? Click <button id="copy-code" type="button">Copy bookmark code</button>, then right-click the bookmarks bar → <b>Add page…</b>, name it “Copy to Quizulu”, and paste the code into the URL box.</p>
+    </section>
+
+    <section class="card">
+      <h2>2. Import an exam</h2>
+      <ol>
+        <li>Open an exam page on itexamanswers.net.</li>
+        <li>Click <b>Copy to Quizulu</b> on your bookmarks bar. A panel shows how many questions it found, including “Show answer” cards for matching and fill-in questions.</li>
+        <li>Set the <b>Type</b> (Module, Quiz, Final…) and a short <b>Title</b> such as <code>Module 18-20</code>, then click <b>Copy to clipboard</b>.</li>
+        <li>Make a new file in <code>questions/</code>, type <code># DEV OPS</code> on the first line, paste below it, and add the file name to <code>questions/subjects.txt</code>. The copied text already has its <code>##</code> heading, so don't type another.</li>
+        <li>If the panel said some questions have images, run <code>python tools/save-images.py</code> to save them into the project.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Updating the importer</h2>
+      <p class="muted">If the importer gets fixed or improved, delete the old bookmark and drag the button again.</p>
+    </section>
+  </main>
+
+  <script>
+    (async () => {
+      const link = document.getElementById('bm');
+      const status = document.getElementById('bm-status');
+      let code = '';
+      try {
+        const res = await fetch('importer.js', { cache: 'no-cache' });
+        if (!res.ok) throw new Error(res.status);
+        code = 'javascript:' + encodeURIComponent(await res.text());
+        link.href = code;
+        link.removeAttribute('aria-disabled');
+        status.textContent = '';
+      } catch {
+        status.className = 'error';
+        status.textContent = 'Couldn\'t load importer.js. Open this page through the local server or your github.io site, not by double-clicking.';
+      }
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        if (code) alert('Drag this button onto your bookmarks bar, then click it while on an exam page.');
+      });
+      document.getElementById('copy-code').addEventListener('click', async () => {
+        if (!code) return;
+        await navigator.clipboard.writeText(code);
+        document.getElementById('copy-code').textContent = 'Copied ✓';
+      });
+    })();
+  </script>
+</body>
+</html>

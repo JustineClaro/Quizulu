@@ -1,0 +1,223 @@
+# DEV OPS
+
+## Module: Module 3-4
+
+
+1. Why would a network administrator choose Linux as an operating system in the Security Operations Center (SOC)?
+A. It is easier to use than other operating systems.
+B. More network applications are created for this environment.
+C. It is more secure than other server operating systems.
+*D. The administrator has more control over the operating system.
+
+2. Which two methods can be used to harden a computing device? (Choose two.)
+A. Allow default services to remain enabled.
+B. Allow USB auto-detection.
+*C. Enforce the password history mechanism.
+D. Update patches on a strict annual basis irrespective of release date.
+*E. Ensure physical security.
+
+3. Which Linux command can be used to display the name of the current working directory?
+A. sudo
+B. ps
+*C. pwd
+D. chmod
+
+4. Consider the result of the ls -l command in the Linux output below. What are the file permissions assigned to the sales user for the analyst.txt file?
+> ls –l analyst.txt
+> -rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt
+A. write only
+B. read, write
+C. read only
+*D. read, write, execute
+
+5. A Linux system boots into the GUI by default, so which application can a network administrator use in order to access the CLI environment?
+A. system viewer
+B. file viewer
+C. package management tool
+*D. terminal emulator
+
+6. What is the well-known port address number used by DNS to serve requests?
+A. 25
+*B. 53
+C. 110
+D. 60
+
+7. Which user can override file permissions on a Linux computer?
+A. any user that has ‘group’ permission to the file
+B. only the creator of the file
+C. any user that has ‘other’ permission to the file
+*D. root user
+
+8. Which type of tool allows administrators to observe and understand every detail of a network transaction?
+A. log manager
+B. malware analysis tool
+C. ticketing system
+*D. packet capture software
+
+9. Why is Kali Linux a popular choice in testing the network security of an organization?
+A. It is a network scanning tool that prioritizes security risks.
+*B. It is an open source Linux security distribution containing many penetration tools.
+C. It can be used to test weaknesses by using only malicious software.
+D. It can be used to intercept and log network traffic.
+
+10. Match the octal value to the file permission description in Linux. (Not all options are used.)
+Image: images/modules3-4/2020-09-2020-09-20_224639-1.png
+*A. write only ~~> 010
+*B. read and execute ~~> 101
+*C. read and write ~~> 110
+*D. execute only ~~> 001
+E. write and execute ~~> NOT SCORED
+*F. no access ~~> 000
+
+11. Match the Linux command to the function. (Not all options are used.)
+Image: images/modules3-4/2024-10-2024-10-01_095814.jpg
+*A. Displays the name of the current working directory: pwd
+*B. runs a command as another user: sudo
+*C. modifies file permissions: chmod
+D. shuts down the system: Empty
+*E. lists the processes that are currently running: ps
+
+12. What are two advantages of the NTFS file system compared with FAT32? (Choose two.)
+A. NTFS is easier to configure.
+*B. NTFS supports larger files.
+C. NTFS allows faster formatting of drives.
+D. NTFS allows the automatic detection of bad sectors.
+E. NTFS allows faster access to external peripherals such as a USB drive.
+*F. NTFS provides more security features.
+
+13. A PC user issues the netstat command without any options. What is displayed as the result of this command?
+A. a historical list of successful pings that have been sent
+*B. a list of all established active TCP connections
+C. a network connection and usage report
+D. a local routing table
+
+14. Which two commands could be used to check if DNS name resolution is working properly on a Windows PC? (Choose two.)
+*A. nslookup cisco.com
+B. net cisco.com
+C. ipconfig /flushdns
+D. nbtstat cisco.com
+*E. ping cisco.com
+
+15. What is the purpose of using the net accounts command in Windows?
+A. to display information about shared network resources
+B. to show a list of computers and network devices on the network
+C. to start a network service
+*D. to review the settings of password and logon requirements for users
+
+16. A technician has installed a third party utility that is used to manage a Windows 7 computer. However, the utility does not automatically start whenever the computer is started. What can the technician do to resolve this problem?
+A. Set the application registry key value to one.
+B. Use the Add or Remove Programs utility to set program access and defaults.
+*C. Change the startup type for the utility to Automatic in Services .
+D. Uninstall the program and then choose Add New Programs in the Add or Remove Programs utility to install the application.
+
+17. Which statement describes the function of the Server Message Block (SMB) protocol?
+A. It is used to stream media contents.
+B. It is used to manage remote PCs.
+C. It is used to compress files stored on a disk.
+*D. It is used to share network resources.
+
+18. A user creates a file with .ps1 extension in Windows. What type of file is it?
+A. PowerShell function
+B. PowerShell cmdlet
+C. PowerShell documentation
+*D. PowerShell script
+
+19. A user logs in to Windows with a regular user account and attempts to use an application that requires administrative privileges. What can the user do to successfully use the application?
+A. Right-click the application and choose Run as Priviledge .
+B. Right-click the application and choose Run as Superuser .
+*C. Right-click the application and choose Run as Administrator .
+D. Right-click the application and choose Run as root .
+
+20. An IT technician wants to create a rule on two Windows 10 computers to prevent an installed application from accessing the public Internet. Which tool would the technician use to accomplish this task?
+A. Local Security Policy
+B. Computer Management
+*C. Windows Defender Firewall with Advanced Security
+D. DMZ
+
+21. What technology was created to replace the BIOS program on modern personal computer motherboards?
+*A. UEFI
+B. MBR
+C. CMOS
+D. RAM
+
+22. Match the Linux system component with the description. (Not all options are used.)
+Image: images/modules3-4/2020-09-2020-09-19_103011.jpg
+*A. CLI : a text based interface that accepts user commands
+*B. shell : a program that interprets and executes user commands
+*C. daemon : a background process that runs without the need for user interaction
+D. (Empty) : a program that manages CPU and RAM allocation to processes, system calls, and file systems
+
+23. What is the outcome when a Linux administrator enters the man man command?
+A. The man man command configures the network interface with a manual address
+B. The man man command opens the most recent log file
+C. The man man command provides a list of commands available at the current prompt
+*D. The man man command provides documentation about the man command
+
+24. Match the description to the Linux term. (Not all options are used.)
+Image: images/modules3-4/2020-09-2020-09-19_103708.jpg
+*A. a type of file that is a reference to another file or directory ~~> symlink
+*B. a running background process that does not need user interaction ~~> daemon
+*C. protecting remote access ~~> hardening
+D. (Empty) ~~>logging
+
+25. What are two benefits of using an ext4 partition instead of ext3? (Choose two.)
+A. an increase in the number of supported devices
+*B. improved performance
+C. compatibility with NTFS
+*D. increase in the size of supported files
+E. decreased load time
+F. compatibility with CDFS
+
+26. Consider the result of the ls -l command in the Linux output below. What are the file permissions assigned to the sales user for the analyst.txt file?
+> ls -l analyst.txt
+> -rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt
+*A. read, write, execute
+B. write only
+C. read only
+D. read, write
+
+27. What is the purpose of entering the netsh command on a Windows PC?
+*A. to configure networking parameters for the PC
+B. to change the computer name for the PC
+C. to create user accounts
+D. to test the hardware devices on the PC
+
+28. Which type of Windows PowerShell command performs an action and returns an output or object to the next command that will be executed?
+*A. cmdlets
+B. functions
+C. routines
+D. scripts
+
+29. A user creates a file with .ps1 extension in Windows. What type of file is it?
+A. PowerShell documentation
+B. PowerShell cmdlet
+*C. PowerShell script
+D. PowerShell function
+
+30. Match the Windows system tool with the description. (Not all options are used.)
+> Modules 3 - 4: Operating System Overview Group Exam 34
+Image: images/modules3-4/2022-07-2024-09-27_154126.jpg
+*A. Registry : a hierarchical database of all system and user information
+*B. Windows Firewall : selectively denies traffic on specified interfaces
+*C. PowerShell : a CLI environment used to run scripts and automate tasks
+*D. Event Viewer : maintains system logs
+E. (Empty) : provides information on system resources and processes
+F. (Empty) : provides virus and spyware protection
+
+31. In the Linux shell, which character is used between two commands to instruct the shell to combine and execute these two commands in sequence?
+A. $
+B. #
+C. %
+*D. |
+
+32. Why is Linux considered to be better protected against malware than other operating systems?
+A. customizable penetration and protection tools
+B. fewer deployments
+*C. file system structure, file permissions, and user account restrictions
+D. integrated firewall
+
+33. Which Windows tool can be used by a cybersecurity administrator to secure stand-alone computers that are not part of an active directory domain?
+A. PowerShell
+B. Windows Defender
+C. Windows Firewall
+*D. Local Security Policy

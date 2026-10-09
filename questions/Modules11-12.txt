@@ -1,0 +1,206 @@
+# DEV OPS
+
+## Module: Module 11-12
+
+1. What is an advantage of HIPS that is not provided by IDS?
+*A. HIPS protects critical system resources and monitors operating system processes.
+B. HIPS deploys sensors at network entry points and protects critical network segments.
+C. HIPS monitors network processes and protects critical files.
+D. HIPS provides quick analysis of events through detailed logging.
+
+2. Which statement describes a difference between RADIUS and TACACS+?
+A. RADIUS separates authentication and authorization whereas TACACS+ combines them as one process.
+B. RADIUS is supported by the Cisco Secure ACS software whereas TACACS+ is not.
+C. RADIUS uses TCP whereas TACACS+ uses UDP.
+*D. RADIUS encrypts only the password whereas TACACS+ encrypts all communication.
+
+3. What are two disadvantages of using an IDS? (Choose two.)
+*A. The IDS does not stop malicious traffic.
+B. The IDS works offline using copies of network traffic.
+C. The IDS has no impact on traffic.
+D. The IDS analyzes actual forwarded packets.
+*E. The IDS requires other devices to respond to attacks.
+
+4. Which statement describes one of the rules that govern interface behavior in the context of implementing a zone-based policy firewall configuration?
+A. An administrator can assign interfaces to zones, regardless of whether the zone has been configured.
+B. An administrator can assign an interface to multiple security zones.
+*C. By default, traffic is allowed to flow among interfaces that are members of the same zone.
+D. By default, traffic is allowed to flow between a zone member interface and any interface that is not a zone member.
+
+5. Which technique is necessary to ensure a private transfer of data using a VPN?
+*A. encryption
+B. virtualization
+C. scalability
+D. authorization
+
+6. What is the function of the distribution layer of the three-layer network design model?
+A. providing direct access to the network
+B. providing secure access to the Internet
+*C. aggregating access layer connections
+D. providing high speed connection to the network edge
+
+7. What two components of traditional web security appliances are examples of functions integrated into a Cisco Web Security Appliance? (Choose two.)
+A. email virus and spam filtering
+B. VPN connection
+C. firewall
+*D. web reporting
+*E. URL filtering
+
+8. Which AAA component can be established using token cards?
+*A. authentication
+B. accounting
+C. authorization
+D. auditing
+
+9. Which statement describes a VPN?
+A. VPNs use open source virtualization software to create the tunnel through the Internet.
+B. VPNs use dedicated physical connections to transfer data between remote users.
+C. VPNs use logical connections to create public networks through the Internet.
+*D. VPNs use virtual connections to create a private network through a public network.
+
+10. What is a host-based intrusion detection system (HIDS)?
+A. It detects and stops potential direct attacks but does not scan for malware.
+B. It is an agentless system that scans files on a host for potential malware.
+C. It identifies potential attacks and sends alerts but does not stop the traffic.
+*D. It combines the functionalities of antimalware applications with firewall protection.
+
+11. Which two devices would commonly be found at the access layer of the hierarchical enterprise LAN design model? (Choose two.)
+A. modular switch
+B. Layer 3 device
+*C. Layer 2 switch
+D. firewall
+*E. access point
+
+12. Which two statements are true about NTP servers in an enterprise network? (Choose two.)
+A. There can only be one NTP server on an enterprise network.
+*B. NTP servers at stratum 1 are directly connected to an authoritative time source.
+C. NTP servers control the mean time between failures (MTBF) for key network devices.
+*D. NTP servers ensure an accurate time stamp on logging and debugging information.
+E. All NTP servers synchronize directly to a stratum 1 time source.
+
+13. In the data gathering process, which type of device will listen for traffic, but only gather traffic statistics?
+*A. NetFlow collector
+B. NMS
+C. SNMP agent
+D. syslog server
+
+14. Which two protocols are link-state routing protocols? (Choose two.)
+*A. ISIS
+B. EIGRP
+C. BGP
+D. RIP
+*E. OSPF
+
+15. What type of route is created when a network administrator manually configures a route that has an active exit interface?
+A. directly connected
+*B. static
+C. local
+D. dynamic
+
+16. Which characteristic describes a wireless client operating in active mode?
+A. must be configured for security before attaching to an AP
+B. broadcasts probes that request the SSID
+C. ability to dynamically change channels
+*D. must know the SSID to connect to an AP
+
+17. What are two types of addresses found on network end devices? (Choose two.)
+A. return
+*B. IP
+*C. MAC
+D. TCP
+E. UDP
+
+18. What is a characteristic of the WLAN passive discover mode?
+A. The client must know the name of the SSID to begin the discover process.
+B. The client begins the discover process by sending a probe request.
+C. The beaconing feature on the AP is disabled.
+*D. The AP periodically sends beacon frames containing the SSID.
+
+19. What is a characteristic of a routed port that is configured on a Cisco switch?
+A. It supports subinterfaces.
+B. It is associated with a single VLAN.
+C. It runs STP to prevent loops.
+*D. It is assigned an IP address.
+
+20. What action does an Ethernet switch take when it receives a frame with an unknown Layer 2 source address?
+A. It forwards the frame out all interfaces except the interface on which it was received.
+B. It forwards the frame to the default gateway.
+*C. It records the source address in the address table of the switch.
+D. It drops the frame.
+
+21. Which routing protocol is used to exchange routes between internet service providers?
+A. OSPF
+B. EIGRP
+C. ISIS
+*D. BGP
+E. RIP
+
+22. What is the first step in the CSMA/CA process when a wireless client is attempting to communicate on the wireless network?
+A. The client sends an RTS message to the AP.
+B. The client sends a test frame onto the channel.
+*C. The client listens for traffic on the channel.
+D. The AP sends a CTS message to the client.
+
+23. What Wi-Fi management frame is regularly broadcast by APs to announce their presence?
+A. authentication
+*B. beacon
+C. probe
+D. association
+
+24. What are the three parts of all Layer 2 frames? (Choose three.)
+A. source and destination IP address
+*B. payload
+C. sequence number
+*D. frame check sequence
+E. time-to-live
+*F. header
+
+25. What is a function of SNMP?
+A. synchronizes the time across all devices on the network
+B. captures packets entering and exiting the network interface card
+*C. provides a message format for communication between network device managers and agents
+D. provides statistical analysis on packets flowing through a Cisco router or multilayer switch
+
+26. Which firewall feature is used to ensure that packets coming into a network are legitimate responses to requests initiated from internal hosts?
+A. application filtering
+*B. stateful packet inspection
+C. packet filtering
+D. URL filtering
+
+27. In which memory location is the routing table of a router maintained?
+A. ROM
+B. flash
+C. NVRAM
+*D. RAM
+
+28. Lightweight access points forward data between which two devices on the network? (Choose two.)
+A. wireless router
+B. default gateway
+*C. wireless LAN controller
+D. autonomous access point
+*E. wireless client
+
+29. A Cisco router is running IOS 15. What are the two routing table entry types that will be added when a network administrator brings an interface up and assigns an IP address to the interface? (Choose two.)
+A. route that is manually entered by a network administrator
+*B. local route interface
+C. route that is learned via OSPF
+*D. directly connected interface
+E. route that is learned via EIGRP
+
+30. What is used on WLANs to avoid packet collisions?
+A. SVIs
+B. STP
+*C. CSMA/CA
+D. VLANs
+
+31. What information within a data packet does a router use to make forwarding decisions?
+A. the destination MAC address
+B. the destination host name
+C. the destination service requested
+*D. the destination IP address
+
+32. What is a characteristic of a hub?
+A. operates at Layer 2
+*B. regenerates signals received on one port out all other ports
+C. subdivides the network into collision domains
+D. uses CSMA/CA to avoid collisions
