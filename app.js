@@ -7,7 +7,7 @@
   const PRAISE = ['Nice!', 'Correct!', 'You got it!', 'Great job!', 'Nailed it!'];
   const IS_LOCAL = ['localhost', '127.0.0.1', ''].includes(location.hostname);
 
-  // ---------- Helpers ----------
+  // ---------- Helpers ---------- 
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const $ = sel => app.querySelector(sel);
